@@ -49,7 +49,7 @@ First we clone `neural-style` from GitHub:
 
 ```
 cd ~/
-git clone https://github.com/jcjohnson/neural-style.git
+git clone https://github.com/rinick/neural-style.git
 cd neural-style
 ```
 
@@ -129,11 +129,6 @@ wget http://developer.download.nvidia.com/compute/cuda/7_0/Prod/local_installers
 sudo dpkg -i cuda-repo-ubuntu1404-7-0-local_7.0-28_amd64.deb
 ```
 
-```
-# For Ubuntu 12.04
-http://developer.download.nvidia.com/compute/cuda/7_0/Prod/local_installers/rpmdeb/cuda-repo-ubuntu1204-7-0-local_7.0-28_amd64.deb
-sudo dpkg -i cuda-repo-ubuntu1204-7-0-local_7.0-28_amd64.deb
-```
 
 Now update the repository cache and install CUDA. Note that this will also install a graphics driver from NVIDIA.
 
